@@ -4,9 +4,9 @@
 const tmp = require('tmp-promise');   // creates temporary files or directories.
 const child_process = require('child_process');  //creates child process out of main process
 const assert = require('assert'); // used for unit testing
-const topsort = require('topsort');
-const fs = require('fs');
-const sanitize = require("sanitize-filename");
+const topsort = require('topsort'); //topological sorting of inner 2D arrays
+const fs = require('fs');  //file system
+const sanitize = require("sanitize-filename"); //
 const path = require('path');
 const HashMap = require('hashmap');
 const bigInt = require('big-integer');
