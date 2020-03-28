@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 "use strict";
 
-const tmp = require('tmp-promise');
-const child_process = require('child_process');
-const assert = require('assert');
+const tmp = require('tmp-promise');   // creates temporary files or directories.
+const child_process = require('child_process');  //creates child process out of main process
+const assert = require('assert'); // used for unit testing
 const topsort = require('topsort');
 const fs = require('fs');
 const sanitize = require("sanitize-filename");
